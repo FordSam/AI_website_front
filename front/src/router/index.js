@@ -21,21 +21,18 @@ const routes = [
   {
     path: '/theLayout',
     name: 'theLayout',
-    component: () =>import('../layout/Layout'),
-
+    component: () =>import('@/layout/Layout'),
     children:[
-
       {
         path:'AI-draw',
         name:'AI-draw',
-        component: () => import("../views/AIdraw"),
+        component: () => import("@/views/AIdraw"),
       },
       {
-        path:'Gpt',
-        name:'Gpt',
-        component: () => import("../views/Gpt"),
+        path:'theGpt',
+        name:'theGpt',
+        component: () => import("@/views/Gpt"),
       }
-
     ]
   },
 

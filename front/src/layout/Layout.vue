@@ -11,7 +11,7 @@
 </style>
 
 <script>
-import theAside from "../components/Aside";
+import theAside from "@/components/Aside";
 
 export default {
   name:"theLayout",
