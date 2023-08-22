@@ -1,0 +1,3 @@
+# AI_website_front
+大一下学期尝试制作关于chatgpt的一个包装网站
+前端采用的是vue框架，最后未成功
